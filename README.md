@@ -41,4 +41,4 @@ Here are some ideas to get you started:
 
 ### GitHub stats
 
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=tadjaur&count_private=true&theme=tokyonight&showicons=true)]()
+[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=tadjaur&count_private=true&theme=tokyonight&show_icons=true)]()

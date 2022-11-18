@@ -26,6 +26,7 @@ Here are some ideas to get you started:
 - 🔭 I’m currently working on Flutter, Firebase and Nodejs
 - 🌱 I’m currently learning React, MongoDB, NextJS
 - 💬 Ask me about Flutter, Firebase, NestJS
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/aurelien-tadjaur-772558143)
 
 ## Languages and tools
 

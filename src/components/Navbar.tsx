@@ -65,7 +65,7 @@ export default function Navbar() {
         />
         <NavbarBrand>
           <Link href="#" className="font-bold text-xl gradient-text">
-            {personalInfo.firstName}
+            {personalInfo.surname}
             <span className="text-white">.dev</span>
           </Link>
         </NavbarBrand>

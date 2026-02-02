@@ -130,7 +130,13 @@ export default function About() {
                           </svg>
                         </div>
                         <div>
-                          <h4 className="font-semibold text-white">{cert.name}</h4>
+                          {cert.link ? (
+                            <>
+                              <h4 className="font-semibold text-white underline"><a href={cert.link} target="_blank" rel="noopener noreferrer">{cert.name}</a></h4>
+                            </>
+                          ): (
+                            <h4 className="font-semibold text-white">{cert.name}</h4>
+                          )}
                           <p className="text-gray-400 text-sm">Issued {cert.year}</p>
                           {cert.certificateId && (
                             <p className="text-xs text-gray-500 mt-1">ID: {cert.certificateId}</p>

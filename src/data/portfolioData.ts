@@ -54,6 +54,7 @@ export interface Certification {
   name: string;
   year: number;
   certificateId?: string;
+  link?: string;
 }
 
 export interface PersonalInfo {
@@ -565,6 +566,7 @@ const certifications: Certification[] = [
     name: "Machine Learning with Python - From Linear Models to Deep Learning",
     year: 2021,
     certificateId: "8e85b9986b5e4a0585310f631db062c9",
+    link: "https://courses.edx.org/certificates/8e85b9986b5e4a0585310f631db062c9"
   },
 ];
 

@@ -1,8 +1,8 @@
 import jsPDF from 'jspdf';
-import { portfolioData, getSkillsByExperience, getSkillCategories } from '../data/portfolioData';
+import { portfolioData, getSkillCategories } from '../data/portfolioData';
 
 export const generateResumePDF = () => {
-  const { personalInfo, experiences, education, certifications, skills } = portfolioData;
+  const { personalInfo, experiences, education, certifications } = portfolioData;
   const doc = new jsPDF();
   
   // Colors
@@ -12,7 +12,7 @@ export const generateResumePDF = () => {
   
   let yPosition = 20;
   const leftMargin = 20;
-  const rightMargin = 190;
+  // const rightMargin = 190;
   const pageWidth = 170;
   
   // Helper function to add a new page if needed
@@ -125,7 +125,7 @@ export const generateResumePDF = () => {
   // ========== WORK EXPERIENCE ==========
   addSectionHeader('Work Experience');
   
-  experiences.forEach((exp, index) => {
+  experiences.forEach((exp) => {
     checkNewPage(30);
     
     // Job title and company

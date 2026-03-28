@@ -36,10 +36,14 @@ Here are some ideas to get you started:
 <code><img height="20" src="https://avatars.githubusercontent.com/u/9950313?s=20&v=4" alt="nodejs"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="javascript"></code>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tadjaur&count_private=true&layout=compact&theme=tokyonight)
-
+![Top Langs](./profile/top-langs.svg)
 
 
 ### GitHub stats
 
 ![My GitHub Stats](./profile/stats.svg)
+
+
+### Top Repositories
+
+![Top Repositories](./profile/pin-readme-tools-github-readme-stats.svg)

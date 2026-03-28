@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 <p align="center">I have rich experience in flutter and NodeJS.</p>
 
 <p align="center">
-<strong>Dart | Javascript | Flutter | Firebase | NodeJS | NestJS</strong>
+<strong>Dart | Javascript | Flutter | Go | Firebase | NodeJS | NestJS</strong>
 </p>
 
 ---

@@ -244,7 +244,7 @@ export const generateResumePDF = () => {
       { align: 'center' }
     );
     doc.text(
-      `Generated from portfolio: ${personalInfo.github}`,
+      `Generated from portfolio: ${personalInfo.portfolio}`,
       105,
       294,
       { align: 'center' }

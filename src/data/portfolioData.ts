@@ -66,6 +66,7 @@ export interface PersonalInfo {
   email: string;
   linkedin: string;
   github: string;
+  portfolio: string;
   location: string;
   timezone: string;
   availability: string;
@@ -94,6 +95,7 @@ const personalInfo: PersonalInfo = {
   email: "tadjaur@tas-groups.com",
   linkedin: "https://linkedin.com/in/tadjaur",
   github: "https://github.com/tadjaur",
+  portfolio: "https://tadjaur.tas-groups.com",
   location: "Cameroon",
   timezone: "4 hrs overlap (PST or EST)",
   availability: "Ready to start immediately",

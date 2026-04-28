@@ -428,41 +428,11 @@ const experiences: Experience[] = [
 		],
 	},
 	{
-		title: "Fullstack Developer (Part-time)",
-		company: "Meta Express",
-		startDate: "January 2022",
-		endDate: "April 2022",
-		duration: "3 mos",
-		description: [
-			"Designed and developed presentation website for parcel delivery company",
-			"Used React for multi-platform availability",
-			"Employed Node.js with Express.js for backend route management",
-		],
-		achievements: [
-			"Successfully launched website promoting parcel delivery services",
-		],
-		technologies: [
-			"JavaScript",
-			"Node.js",
-			"TypeScript",
-			"Express.js",
-			"React",
-			"REST/RESTful APIs",
-		],
-		projects: [
-			{
-				name: "Meta Express Website",
-				description: "Presentation website for parcel delivery company",
-				technologies: ["React", "Node.js", "Express.js", "TypeScript"],
-			},
-		],
-	},
-	{
 		title: "Software Developer",
 		company: "Spreeloop",
 		companyUrl: "https://spreeloop.com",
 		startDate: "April 2021",
-		endDate: "December 2021",
+		endDate: "January 2022",
 		duration: "8 mos",
 		description: [
 			"Created high-quality applications for meal ordering and delivery services",
@@ -519,7 +489,7 @@ const experiences: Experience[] = [
 		title: "Fullstack Developer",
 		company: "Mba&Mba",
 		startDate: "September 2020",
-		endDate: "December 2020",
+		endDate: "January 2021",
 		duration: "3 mos",
 		description: [
 			"Designed and developed presentation websites for clients",
@@ -585,6 +555,46 @@ const experiences: Experience[] = [
 				description: "E-learning platform with chat and notification features",
 				technologies: ["Ionic", "Angular", "Firebase", "Node.js", "TypeScript"],
 			},
+		],
+	},
+	{
+		title: "Fullstack Developer",
+		company: "Sublime Cameroun",
+		startDate: "Jully 2019",
+		endDate: "June 2020",
+		duration: "1 year",
+		description: [
+			"Implement elearning android application and Finance desktop application",
+			"Implemented a pdf reader and editor used to help teacher to easily write course",
+			"Utilized Electron (Angular.js) and Flutter (Dart) for desktop and mobile application development",
+			"Implemented improvements including refactoring and forward-thinking features",
+			"Created comprehensive onboarding documentation",
+		],
+		achievements: [
+			"Successfully created the desktop app",
+			"Improved tontine user's experience significantly",
+			"Introduced document editor",
+		],
+		technologies: [
+			"Firebase",
+			"Flutter",
+			"Angular.js",
+			"Express.js",
+			"Electron",
+			"Git",
+		],
+		projects: [
+			{
+				name: "E-Learning Success",
+				description: "E-learning platform with chat and notification features, designed for solo teacher",
+				technologies: ["Flutter", "Firebase", "Node.js", "TypeScript"],
+			},
+			{
+				name: "Afty",
+				description: "A tontine management application designed",
+				technologies: ["Angular.js", "Express.js", "Electron.js" ],
+			},
+
 		],
 	},
 ];
